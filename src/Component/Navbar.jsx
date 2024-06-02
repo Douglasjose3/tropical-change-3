@@ -32,7 +32,7 @@ const Navbar = () => {
         </>
     
     return (
-        <nav className="fixed top-0 z-10 w-full">
+        <nav className="sticky top-0 left-0 z-10">
             <div className="flex justify-between py-5 px-20 pt-8 shadow-2xl bg-orangeDark">
                 <div className="flex items-center flex-1">
                     <a href="/" className="text-white font-extrabold lg:text-[36px] text-nowrap hover:sm: text-[24px] hover:sm: p-[8px]">Tropical Change</a>
