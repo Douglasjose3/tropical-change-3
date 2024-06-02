@@ -10,7 +10,7 @@ const About = () => {
     }, [])
     return (
         <>
-            <div id="about" className="bg-beach lg:bg-cover bg-norepet bg-center bg-fixed min-w-screen min-h-screen pt-16 hover:sm: bg-auto">
+            <div id="about" className="bg-beach bg-cover bg-norepet bg-center bg-fixed min-w-screen min-h-screen pt-16">
                 <div className="flex justify-center items-center">
                     <div className="">
                         <div className="pt-16">
