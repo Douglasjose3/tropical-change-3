@@ -16,8 +16,8 @@ const Whats = () => {
             <div className="">
                 <div className="backdrop-blur-md rounded-3xl text-white p-10">
                     <div className="">
-                        <h1 className="font-black text-[70px] text-center text-white mb-[-30px]" data-aos = 'fade-right'>What's</h1>
-                        <h1 className="font-black text-[70px] text-center text-white mb-1" data-aos = 'fade-left'>Included</h1>
+                        <h1 className="font-black lg:text-[70px] text-center text-white mb-[-30px] hover:sm: text-[60px]" data-aos = 'fade-right'>What's</h1>
+                        <h1 className="font-black lg:text-[70px] text-center text-white mb-1 hover:sm: text-[60px]" data-aos = 'fade-left'>Included</h1>
                     </div>
                     <div className="lg:grid grid-cols-5 gap-11 p-10 hover:sm:grid-cols-1">
                         <div data-aos="zoom-in">
