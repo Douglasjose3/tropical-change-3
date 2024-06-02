@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        beach: 'url("assets/background.png")',
+        beach: 'url("assets/about.jpg")',
         chart: 'url("assets/included.jpg")',
       },
       colors: {

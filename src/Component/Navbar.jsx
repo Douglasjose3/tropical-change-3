@@ -32,8 +32,8 @@ const Navbar = () => {
         </>
     
     return (
-        <nav className="sticky top-0 left-0 z-10">
-            <div className="flex justify-between py-5 px-20 pt-8 shadow-2xl bg-orangeDark">
+        <nav className="sticky top-0 z-50">
+            <div className="flex justify-between py-3 px-40 pt-8 shadow-2xl bg-orangeDark">
                 <div className="flex items-center flex-1">
                     <a href="/" className="text-white font-extrabold lg:text-[36px] text-nowrap hover:sm: text-[24px] hover:sm: p-[8px]">Tropical Change</a>
                 </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                         <Link spy={true} smooth={true} to='whats'><li className="hover:text-white transition cursor-pointer">What's Included</li></Link>
                         <Link spy={true} smooth={true} to='/'><li className="hover:text-white transition cursor-pointer">Contact</li></Link>
                         <div className='flex animate-pulse'>
-                            <button className="flex text-nowrap border-2 px-4 py-4 rounded-xl uppercase ml-10 shadow-xl bg-blueMedium text-white hover:bg-orangeLight hover:text-orangeDark"
+                            <button className="flex text-nowrap border-2 px-4 py-4 rounded-xl uppercase ml-5 shadow-xl bg-blueMedium text-white hover:bg-orangeLight hover:text-orangeDark"
                                 type="button">
                                     <p className="text-[30px] mr-3">
                                         <AiFillDiscord/>
