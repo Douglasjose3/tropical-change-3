@@ -14,8 +14,8 @@ const About = () => {
                 <div className="flex justify-center items-center">
                     <div className="">
                         <div className="pt-16">
-                            <h1 className="font-black lg:text-[70px] text-center lg:text-black mb-[-30px] hover:sm: text-[50px] text-white" data-aos = 'fade-right'>Tropical</h1>
-                            <h1 className="font-black lg:text-[70px] text-center lg:text-black hover:sm: text-[50px] text-white" data-aos = 'fade-left'>Change</h1>
+                            <h1 className="font-black lg:text-[70px] text-center lg:text-black mb-[-30px] hover:sm: text-[50px] hover:sm: text-white" data-aos = 'fade-right'>Tropical</h1>
+                            <h1 className="font-black lg:text-[70px] text-center lg:text-black hover:sm: text-[50px] hover:sm: text-white" data-aos = 'fade-left'>Change</h1>
                         </div>
                         <div className="text-center font-bold text-xl rounded-3xl lg:text-black lg:w-[600px] px-20 hover:sm: text-white">
                             <p>"We want to make a difference in the Day Trading Community, by removing stress and adding confidence to your trades".</p>

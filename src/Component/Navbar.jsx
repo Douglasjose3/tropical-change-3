@@ -58,7 +58,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <button className="block font-extrabold text-white sm:hidden transition justify-center pt-[8px]" onClick={handleClick}>
+                    <button className="block font-extrabold text-white sm:hidden transition justify-center pt-[12px]" onClick={handleClick}>
                         {click ? <FaTimes/> : <CiMenuFries/>}
                     </button>
                 </div>
