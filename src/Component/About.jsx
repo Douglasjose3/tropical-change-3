@@ -21,7 +21,7 @@ const About = () => {
                             <p>"We want to make a difference in the Day Trading Community, by removing stress and adding confidence to your trades".</p>
                             <p>We do not intend to sell anything. We are a group of traders who like to share how we navigate the market.</p>
                             <div className='flex justify-center animate-pulse'>
-                                <button className="flex items-center border-2 px-4 py-4 rounded-xl mt-8 bg-blueMedium text-white shadow-lg uppercase font-bold hover:bg-orangeLight hover:text-orangeDark hover:border-orangeDark"
+                                <button className="flex items-center border-2 px-4 py-4 rounded-xl mt-8 bg-blueMedium text-white shadow-lg uppercase font-bold text-nowrap hover:bg-orangeLight hover:text-orangeDark hover:border-orangeDark"
                                     type="button">
                                         <p className="text-[30px] mr-3">
                                             <AiFillDiscord/>
