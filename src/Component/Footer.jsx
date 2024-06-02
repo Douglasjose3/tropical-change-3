@@ -3,7 +3,7 @@ import { AiFillDiscord } from "react-icons/ai"
 const Footer = () => {
     return (
         <div className="uppercase p-10 bg-blueMedium">
-            <div className="flex justify-center">
+            <div className="flex justify-center animate-pulse">
                 <button className="flex text-nowrap border-2 px-4 py-4 rounded-xl uppercase ml-10 shadow-xl font-bold bg-orangeDark text-white hover:bg-orangeLight hover:text-orangeDark"
                     type="button">
                         <p className="text-[30px] mr-3">
