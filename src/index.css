@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.whatsH1 {
+    @apply items-center text-center text-xl font-extrabold text-orangeMedium pb-2 uppercase;
+}
+
+.whatsP {
+    @apply font-bold mb-5 text-center;
+}
+
+.linkMenu {
+    @apply font-bold my-4 py-4 border-b border-orangeLight text-orangeLight hover:text-orangeLight hover:bg-orangeDark rounded-lg transition-all duration-300
+}
+
+.iconWhats {
+    @apply text-[50px] flex justify-center text-orangeMedium animate-bounce pt-10;
+}
