@@ -12,13 +12,13 @@ const About = () => {
         <>
             <div id="about" className="bg-cover bg-beach bg-fixed min-w-screen min-h-screen hover:sm: bg-center">
                 <div className="flex justify-center items-center">
-                        <div className="lg:pt-[160px] hover:sm: pt-[50px]">
+                        <div className="lg:pt-[100px] lg:ml-10 hover:sm: pt-[50px]">
                             <div className="">
                                 <h1 className="font-black lg:text-[70px] text-center lg:text-black mb-[-30px] hover:sm: text-[50px]" data-aos = 'fade-right'>Tropical</h1>
                                 <h1 className="font-black lg:text-[70px] text-center lg:text-black hover:sm: text-[50px]" data-aos = 'fade-left'>Change</h1>
                             </div>
-                            <div className="text-center font-bold text-xl rounded-3xl lg:text-black lg:w-[750px] px-20">
-                                <p>"We want to make a difference in the Day Trading Community, by removing stress and adding confidence to your trades".</p>
+                            <div className="text-center font-bold text-2xl rounded-3xl lg:text-black lg:w-[550px] p-5 backdrop-brightness-150 hover:sm: w-full">
+                                <p className="">"We want to make a difference in the Day Trading Community, by removing stress and adding confidence to your trades".</p>
                                 <p>We do not intend to sell anything. We are a group of traders who like to share how we navigate the market.</p>
                             </div>
                             <div className='flex justify-center animate-pulse'>

@@ -12,15 +12,15 @@ const Whats = () => {
         Aos.init();
     }, [])
     return (
-        <div id="whats" className="bg-cover bg-chart min-w-screen min-h-screen hover:sm: bg-center">
+        <div id="whats" className="bg-cover bg-chart bg-fixed min-w-screen min-h-screen hover:sm: bg-center">
             <div className="">
-                <div className="rounded-3xl text-white p-[120px]">
+                <div className="text-white p-10 backdrop-blur-md rounded-xl pt-[120px]">
                     <div className="">
                         <h1 className="font-black lg:text-[70px] text-center text-white mb-[-30px] hover:sm: text-[50px]" data-aos = 'fade-right'>What's</h1>
                         <h1 className="font-black lg:text-[70px] text-center text-white mb-1 hover:sm: text-[50px]" data-aos = 'fade-left'>Included</h1>
                     </div>
-                    <div className="lg:grid lg:grid-cols-5 gap-11 p-10 hover:md:grid-cols-2 hover:sm:grid-cols-1">
-                        <div className="backdrop-blur-sm rounded-lg" data-aos="zoom-in">
+                    <div className="grid lg:grid-cols-5 gap-11 hover:md:grid-cols-2 hover:sm:grid-cols-1">
+                        <div className="" data-aos="zoom-in">
                             <span className="iconWhats"><RiLiveFill/></span>
                             <h1 className="whatsH1">Live Trading <br /> Sessions</h1>
                             <p className="whatsP">Trade live with our team, boasting a combined total of over 7 figures in payouts. Experience live tape reading, real-time trade executions, and ongoing education.</p>    
@@ -42,7 +42,7 @@ const Whats = () => {
                         </div>
                         <div className="backdrop-blur-sm p-5 rounded-lg" data-aos="zoom-in">
                             <span className="iconWhats"><FaMoneyBillTrendUp/></span>
-                            <h1 className="whatsH1">Proprietary Firm Payout Strategies</h1>
+                            <h1 className="whatsH1">Proprietary Firm <br /> Payout Strategies</h1>
                             <p className="whatsP">Our trading team has accumulated over 7 figures in payouts and has more than 30 years of experience. We know what works and we share all our strategies with you.</p>
                         </div>
                     </div>
