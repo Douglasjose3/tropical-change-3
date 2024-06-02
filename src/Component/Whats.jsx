@@ -12,14 +12,14 @@ const Whats = () => {
         Aos.init();
     }, [])
     return (
-        <div id="whats" className="bg-chart bg-cover bg-no-repeat w-full h-full bg-left pt-20">
+        <div id="whats" className="bg-chart bg-cover bg-center bg-no-repeat min-w-screen min-h-screen pt-20">
             <div className="">
                 <div className="backdrop-blur-md rounded-3xl text-white p-10">
                     <div className="">
                         <h1 className="font-black lg:text-[70px] text-center text-white mb-[-30px] hover:sm: text-[50px]" data-aos = 'fade-right'>What's</h1>
                         <h1 className="font-black lg:text-[70px] text-center text-white mb-1 hover:sm: text-[50px]" data-aos = 'fade-left'>Included</h1>
                     </div>
-                    <div className="lg:grid grid-cols-5 gap-11 p-10 hover:sm:grid-cols-1">
+                    <div className="lg:grid lg:grid-cols-5 gap-11 p-10 hover:md:grid-cols-2 hover:sm:grid-cols-1">
                         <div data-aos="zoom-in">
                             <span className="iconWhats"><RiLiveFill/></span>
                             <h1 className="whatsH1">Live Trading <br /> Sessions</h1>

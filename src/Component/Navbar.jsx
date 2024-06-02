@@ -35,7 +35,7 @@ const Navbar = () => {
         <nav className="fixed top-0 z-10 w-full">
             <div className="flex justify-between py-5 px-20 pt-8 shadow-2xl bg-orangeDark">
                 <div className="flex items-center flex-1">
-                    <a href="/" className="text-white font-extrabold lg:text-[36px] text-nowrap hover:sm: text-[24px]">Tropical Change</a>
+                    <a href="/" className="text-white font-extrabold lg:text-[36px] text-nowrap hover:sm: text-[24px] hover:sm: p-[8px]">Tropical Change</a>
                 </div>
                 <div className="">
                     <ul className="lg:flex items-center gap-8 text-[18px] font-bold text-orangeLight text-nowrap hover:sm: hidden">
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <button className="block font-extrabold text-white sm:hidden transition justify-center" onClick={handleClick}>
+                    <button className="block font-extrabold text-white sm:hidden transition justify-center pt-[8px]" onClick={handleClick}>
                         {click ? <FaTimes/> : <CiMenuFries/>}
                     </button>
                 </div>
